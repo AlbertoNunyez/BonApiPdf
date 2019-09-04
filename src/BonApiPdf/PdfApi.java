@@ -178,9 +178,9 @@ public class PdfApi {
 			document.open();
 			//Set attributes here
 			
-			document.addAuthor("Neith BP Consulting, S.L.");
+			document.addAuthor("Alberto");
 			document.addCreationDate();
-			document.addCreator("neithBP.com");
+			document.addCreator("Alberto");
 			document.addTitle("Documento de prueba");
 			document.addSubject("Prueba de utilización de escritura de archivos PDF.");
 			//Add more content here

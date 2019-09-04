@@ -248,9 +248,9 @@ public class ReportApi {
 			document.open();
 			//Set attributes here
 			
-			document.addAuthor("Neith BP Consulting, S.L.");
+			document.addAuthor("Alberto");
 			document.addCreationDate();
-			document.addCreator("neithBP.com");
+			document.addCreator("Alberto");
 			document.addTitle(jsUtils.getJSdato("titulo",jsObj));
 			document.addSubject(jsUtils.getJSdato("asunto",jsObj));//jsObj.get("asunto").toString());
 			//Add more content here

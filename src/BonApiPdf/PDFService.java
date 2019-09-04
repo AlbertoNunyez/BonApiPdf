@@ -50,7 +50,7 @@ import org.json.simple.parser.ParseException;
 
 @Path("/PDFService") 
 public class PDFService {
-	static String version = "0.1.0";
+	static String version = "0.1.1";
 	private boolean isDebug = java.lang.management.ManagementFactory.getRuntimeMXBean().
 		    getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
 	private static Logger logger = Logger.getLogger("SimService.log");	
@@ -194,19 +194,11 @@ public class PDFService {
     	PDFService unMe = new PDFService();
     	
     	logger.info("· Starting UserService.main(String[] args)" + unMe.getVersion());
-//    	PdfApi miPdf = new PdfApi();
-    	//PdfApi.getDemoPDF("C:\\Users\\alber\\Documents\\unDemo.pdf");
-    	String incomingData=readFileAsString("C:\\Users\\alber\\OneDrive - NEITH BP CONSULTING, S.L\\NeithBP\\Aplicaciones\\tempEMB\\report.json");
+    	String incomingData=readFileAsString(".\\sampleData\\report.json");
 		Object obj = new JSONParser().parse(incomingData);
 		JSONObject jsObj = (JSONObject) obj;
 		PdfApi.logger = logger;
-    	PdfApi.getReportPDF(jsObj, "C:\\Users\\alber\\OneDrive - NEITH BP CONSULTING, S.L\\NeithBP\\Aplicaciones\\tempEMB\\report.pdf");
-    	//String incomingData=readFileAsString("C:\\Users\\alber\\OneDrive - NEITH BP CONSULTING, S.L\\NeithBP\\Aplicaciones\\temp\\mal.json");
-		//Object obj = new JSONParser().parse(incomingData);
-		//JSONObject jsObj = (JSONObject) obj;
-    	//SqlApi miApi = new SqlApi(logger, version);
-		//logger.info("Update result: " + miApi.updateDataDB("BDM_TEST", jsObj));   // jsObj.get("metadata").toString()
-    	
+    	PdfApi.getReportPDF(jsObj, ".\\sampleData\\report.pdf");
         logger.info("Completed sucessfully!!!");
     }
 }
