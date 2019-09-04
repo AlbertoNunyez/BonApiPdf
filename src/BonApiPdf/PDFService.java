@@ -50,7 +50,7 @@ import org.json.simple.parser.ParseException;
 
 @Path("/PDFService") 
 public class PDFService {
-	static String version = "1.0.0";
+	static String version = "0.1.0";
 	private boolean isDebug = java.lang.management.ManagementFactory.getRuntimeMXBean().
 		    getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
 	private static Logger logger = Logger.getLogger("SimService.log");	
