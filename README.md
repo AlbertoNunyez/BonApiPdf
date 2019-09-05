@@ -9,3 +9,8 @@ Esta API está basada en la libreria de <b>iText</b>:<br />
 https://itextpdf.com/es
 <br />
 a quienes agradecemos su excelente labor.
+
+=====
+| Master         | Docs          | License  |
+| :-------------:|:-------------:|:--------:|
+|[![GitHub license](https://github.com/AlbertoNunyez/BonApiPdf/imgs/AGPLv3_Logo.svg)](./LICENSE) |
