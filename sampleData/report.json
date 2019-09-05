@@ -1,16 +1,10 @@
 {
-    "logo2": "http://www.neithbp.com/public/imgs/logo.png",
-    "logo": "https://terroir-al-limit.com/tal2018/wp-content/uploads/2018/08/Terroir-al-limit-Logo-DUMMY.png",
-    "_titulo": {
-        "fuente": "TimesBOLD",
-        "Size": "12",
-        "texto": "Pedido de Etiquetas"
-    },
+    "logo": "http://www.neithbp.com/public/imgs/logo.png",
     "titulo": "ESTO ES UN TITULO",
-    "asunto": "Proveedor: Vendedor de Etiquetas de \nPorrera",
+    "asunto": "Proveedor: Vendedor de Etiquetas de \Flam",
     "casoID": "25",
     "nomFichero": "detalle.prueba.pdf",
-    "pie": "Terroir al Limit, S.L. 2019",
+    "pie": "Una empresa. 2019",
     "showFecha": true,
     "showPagina": true,
     "secciones": [
@@ -581,12 +575,7 @@
                 "status": {
                     "code": "OK",
                     "time": "0.096 seconds",
-                    "version": "1.4.17",
-                    "info": {
-                        "request": {
-                            "sql": "select embPaises.persistenceId, embFormatos.embAnyadas_pid, embFormatos_pid, embFormatos.idformato_pid, embPaises.idpais_pid, embPaises.cantbotprev, embPaises.cantBotReal  from embAnyadas, embFormatos, embPaises where embFormatos.embAnyadas_pid = embAnyadas.persistenceId and embPaises.embFormatos_pid =  embFormatos.persistenceId and embotellados_pid = 9605"
-                        }
-                    }
+                    "version": "1.4.17"
                 }
             }
         },
@@ -1980,12 +1969,7 @@
                 "status": {
                     "code": "OK",
                     "time": "0.154 seconds",
-                    "version": "1.3.5",
-                    "info": {
-                        "request": {
-                            "sql": "select * from materiales"
-                        }
-                    }
+                    "version": "1.3.5"
                 }
             }
         },
@@ -2630,7 +2614,7 @@
                                 "persistenceversion": 0,
                                 "idbodega_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Torroja",
+                                    "nom": "Flam",
                                     "persistenceversion": 0
                                 }
                             }
@@ -2742,7 +2726,7 @@
                                 "persistenceversion": 0,
                                 "idbodega_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Torroja",
+                                    "nom": "Flam",
                                     "persistenceversion": 0
                                 }
                             }
@@ -3546,7 +3530,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -3610,7 +3594,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -3738,7 +3722,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -3994,7 +3978,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -4186,7 +4170,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -4233,7 +4217,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4297,7 +4281,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4314,7 +4298,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -4361,7 +4345,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4425,7 +4409,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4489,7 +4473,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4553,7 +4537,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4617,7 +4601,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4681,7 +4665,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4745,7 +4729,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -4890,7 +4874,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -5466,7 +5450,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -6106,7 +6090,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -6577,7 +6561,7 @@
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6589,11 +6573,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Arbossar",
+                                    "nom": "Vi�a Alta",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6605,11 +6589,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Arbossar",
+                                    "nom": "Vi�a Alta",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6621,11 +6605,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 2,
-                                    "nom": "Dits del Terra",
+                                    "nom": "Vino Super",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6637,11 +6621,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 2,
-                                    "nom": "Dits del Terra",
+                                    "nom": "Vino Super",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6653,11 +6637,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 2,
-                                    "nom": "Dits del Terra",
+                                    "nom": "Vino Super",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6669,11 +6653,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 4,
-                                    "nom": "Dits del Cuca",
+                                    "nom": "Vino alta gama",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6685,11 +6669,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 4,
-                                    "nom": "Dits del Cuca",
+                                    "nom": "Vino alta gama",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6701,11 +6685,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 3,
-                                    "nom": "Terroir sense fronteres",
+                                    "nom": "Vino b�sico",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 2,
-                                        "nom": "Capçanes",
+                                        "nom": "Berger",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6717,11 +6701,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 3,
-                                    "nom": "Terroir sense fronteres",
+                                    "nom": "Vino b�sico",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 2,
-                                        "nom": "Capçanes",
+                                        "nom": "Berger",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -6794,12 +6778,7 @@
                 "status": {
                     "code": "OK",
                     "time": "0.686 seconds",
-                    "version": "1.4.13",
-                    "info": {
-                        "request": {
-                            "sql": "select * from lineasped where pedidos_pid = 7262"
-                        }
-                    }
+                    "version": "1.4.13"
                 }
             }
         },
@@ -7446,11 +7425,11 @@
                             "persistenceversion": 0,
                             "idmarca_pid": {
                                 "persistenceid": 0,
-                                "nom": "Arbosar",
+                                "nom": "Vi�a alta",
                                 "persistenceversion": 0,
                                 "idbodega_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Torroja",
+                                    "nom": "Flam",
                                     "persistenceversion": 0
                                 }
                             }
@@ -7558,11 +7537,11 @@
                             "persistenceversion": 0,
                             "idmarca_pid": {
                                 "persistenceid": 0,
-                                "nom": "Les Manyes",
+                                "nom": "Vi�a Baja",
                                 "persistenceversion": 0,
                                 "idbodega_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Torroja",
+                                    "nom": "Flam",
                                     "persistenceversion": 0
                                 }
                             }
@@ -8366,7 +8345,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -8430,7 +8409,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -8558,7 +8537,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -8814,7 +8793,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -9006,7 +8985,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -9053,7 +9032,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9117,7 +9096,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9134,7 +9113,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -9181,7 +9160,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9245,7 +9224,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9309,7 +9288,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9373,7 +9352,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9437,7 +9416,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9501,7 +9480,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9565,7 +9544,7 @@
                                     "fecrecfin": "null",
                                     "fecrecini": "2019-06-18",
                                     "nom": "Test Emb 01",
-                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Dits del Terra 2003",
+                                    "observ": "Obs Test Emb 01 - Revisado - Iniciado- Stocks iniciales recontados - Se añade Vino Super 2003",
                                     "persistenceversion": 57,
                                     "transpfecplanif": "null",
                                     "transpobserv": "null",
@@ -9710,7 +9689,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -10286,7 +10265,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -10926,7 +10905,7 @@
                                     "nom": "Proveedor dos modificado",
                                     "observ": "",
                                     "persistenceversion": 0,
-                                    "poblacion": "Porrera",
+                                    "poblacion": "Houhgland",
                                     "snreqanticipo": true
                                 }
                             },
@@ -11397,7 +11376,7 @@
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11409,11 +11388,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Arbossar",
+                                    "nom": "Vi�a Alta",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11425,11 +11404,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 1,
-                                    "nom": "Arbossar",
+                                    "nom": "Vi�a Alta",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11441,11 +11420,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 2,
-                                    "nom": "Dits del Terra",
+                                    "nom": "Vino Super",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11457,11 +11436,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 2,
-                                    "nom": "Dits del Terra",
+                                    "nom": "Vino Super",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11473,11 +11452,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 2,
-                                    "nom": "Dits del Terra",
+                                    "nom": "Vino Super",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11489,11 +11468,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 4,
-                                    "nom": "Dits del Cuca",
+                                    "nom": "Vino alta gama",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11505,11 +11484,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 4,
-                                    "nom": "Dits del Cuca",
+                                    "nom": "Vino alta gama",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 1,
-                                        "nom": "Torroja",
+                                        "nom": "Flam",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11521,11 +11500,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 3,
-                                    "nom": "Terroir sense fronteres",
+                                    "nom": "Vino b�sico",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 2,
-                                        "nom": "Capçanes",
+                                        "nom": "Berger",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11537,11 +11516,11 @@
                                 "persistenceversion": 0,
                                 "idmarca_pid": {
                                     "persistenceid": 3,
-                                    "nom": "Terroir sense fronteres",
+                                    "nom": "Vino b�sico",
                                     "persistenceversion": 0,
                                     "idbodega_pid": {
                                         "persistenceid": 2,
-                                        "nom": "Capçanes",
+                                        "nom": "Berger",
                                         "persistenceversion": 0
                                     }
                                 }
@@ -11614,12 +11593,7 @@
                 "status": {
                     "code": "OK",
                     "time": "0.686 seconds",
-                    "version": "1.4.13",
-                    "info": {
-                        "request": {
-                            "sql": "select * from lineasped where pedidos_pid = 7262"
-                        }
-                    }
+                    "version": "1.4.13"
                 }
             }
         }
