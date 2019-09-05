@@ -12,4 +12,4 @@ a quienes agradecemos su excelente labor.
 
 | Master      | Docs        | License|
 |-------------|-------------|--------|
-|master|doc|[![GitHub license](./imgs/AGPLv3_Logo.svg)](./LICENSE) |
+|master|doc|[![GitHub license](./imgs/AGPLv3_Logo.svg=250x250)](./LICENSE) |
