@@ -5,5 +5,7 @@ Más adelante se incluirá un conector bonita para poder ser fácilmente utilizado 
 
 La versión actual solo ofrece la posibilidad de generar un PDF a partir de un esquema fijo por programa.
 
-Esta API está basada en la libreria de iText:
+Esta API está basada en la libreria de <b>iText</b>:<br />
 https://itextpdf.com/es
+<br />
+a quienes agradecemos su excelente labor.
