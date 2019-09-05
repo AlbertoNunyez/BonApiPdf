@@ -12,8 +12,4 @@ a quienes agradecemos su excelente labor.
 
 | Master      | Docs        | License|
 |-------------|-------------|--------|
-|master|doc|<img src="./imgs/AGPLv3_Logo.svg" width="100" />|
-|ato|las|![(./imgs/AGPLv3_Logo.svg)](./LICENSE)|
-|-------------|-------------|--------|
-
-
+|master|doc|<a href="./LICENSE"><img src="./imgs/AGPLv3_Logo.svg" width="100" /></a>|
