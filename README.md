@@ -13,4 +13,4 @@ a quienes agradecemos su excelente labor.
 =====
 | Master         | Docs          | License  |
 | :-------------:|:-------------:|:--------:|
-|[![GitHub license](https://github.com/AlbertoNunyez/BonApiPdf/imgs/AGPLv3_Logo.svg)](./LICENSE) |
+|[![GitHub license](./imgs/AGPLv3_Logo.svg)](./LICENSE) |
