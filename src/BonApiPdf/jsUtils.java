@@ -34,15 +34,19 @@ public class jsUtils {
 		String s=porDefecto;
 		JSONObject unMeta=null;
 		try {
-			String[] parts = nomItem.split("\\.");
-			if (parts.length<=1) {
-				unMeta = findJSObject(parts[0],jsMetaData);
-				s = getJSdato("type",unMeta,porDefecto);
-			}else {
-				unMeta = findJSObject(parts[0],jsMetaData);
-				JSONArray jsMetaSon = (JSONArray) unMeta.get("metadata");
-				String nomItemSon = joinArray(parts,1,"\\.");
-				s = getJSMetadato(nomItemSon,jsMetaSon, porDefecto);
+			if (jsMetaData != null) {
+				String[] parts = nomItem.split("\\.");
+				if (parts.length<=1) {
+					unMeta = findJSObject(parts[0],jsMetaData);
+					s = getJSdato("type",unMeta,porDefecto);
+				}else {
+					unMeta = findJSObject(parts[0],jsMetaData);
+					if (unMeta != null) {
+						JSONArray jsMetaSon = (JSONArray) unMeta.get("metadata");
+						String nomItemSon = joinArray(parts,1,"\\.");
+						s = getJSMetadato(nomItemSon,jsMetaSon, porDefecto);
+					}
+				}
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -58,13 +62,17 @@ public class jsUtils {
 	static String getJSdato(String nomItem, JSONObject jsObj, String porDefecto) {
 		String s=porDefecto;
 		try {
-			String[] parts = nomItem.split("\\.");
-			if (parts.length<=1) {
-				s = jsObj.get(nomItem).toString();
-			}else {
-				JSONObject jsObjSon = (JSONObject) jsObj.get(parts[0]);
-				String nomItemSon = joinArray(parts,1,".");
-				s = getJSdato(nomItemSon,jsObjSon, porDefecto);
+			if (jsObj != null) {
+				String[] parts = nomItem.split("\\.");
+				if (parts.length<=1) {
+					if (jsObj.containsKey(nomItem)) {
+						s = jsObj.get(nomItem).toString();
+					}
+				}else {
+					JSONObject jsObjSon = (JSONObject) jsObj.get(parts[0]);
+					String nomItemSon = joinArray(parts,1,".");
+					s = getJSdato(nomItemSon,jsObjSon, porDefecto);
+				}
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
