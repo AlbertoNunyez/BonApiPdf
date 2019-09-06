@@ -5,5 +5,8 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="C:/Users/alber/OneDrive - NEITH BP CONSULTING, S.L/NeithBP/Aplicaciones/Desarrollo/eclipse-workspace/itextpdf/5.0.6/itextpdf-5.0.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-core-1.19.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-media-multipart-2.26.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-multipart-1.19.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
