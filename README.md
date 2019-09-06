@@ -13,3 +13,16 @@ a quienes agradecemos su excelente labor.
 | Master      | Docs        | License|
 |-------------|-------------|--------|
 |master|doc|<a href="./LICENSE"><img src="./imgs/AGPLv3_Logo.svg" width="100" /></a>|
+
+
+## Métodos incluidos en esta API
+<b>version</b>
+	Retorna la versión actual de la API
+<b>pdfDemo</b>
+	Retorna un PDF de ejemplo
+<b>getPDF</b>
+	Dado un json con la estrucutura predeterminada devuelve un PDF con una plantilla fija de momento
+<b>savePDF</b>
+	Dado un json con la estrucutura predeterminada guarda un PDF en el servidor creado con una plantilla fija de momento y retorna la url desde donde acceder a dicho PDF
+	 
+	
