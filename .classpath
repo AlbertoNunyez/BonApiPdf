@@ -4,5 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/alber/OneDrive - NEITH BP CONSULTING, S.L/NeithBP/Aplicaciones/Desarrollo/eclipse-workspace/itextpdf/5.0.6/itextpdf-5.0.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
