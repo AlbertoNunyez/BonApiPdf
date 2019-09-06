@@ -16,13 +16,13 @@ a quienes agradecemos su excelente labor.
 
 
 ## Métodos incluidos en esta API
-<b>version</b>
+<br /><b>version</b>
 	Retorna la versión actual de la API
-<b>pdfDemo</b>
+<br /><b>pdfDemo</b>
 	Retorna un PDF de ejemplo
-<b>getPDF</b>
+<br /><b>getPDF</b>
 	Dado un json con la estrucutura predeterminada devuelve un PDF con una plantilla fija de momento
-<b>savePDF</b>
+<br /><b>savePDF</b>
 	Dado un json con la estrucutura predeterminada guarda un PDF en el servidor creado con una plantilla fija de momento y retorna la url desde donde acceder a dicho PDF
 	 
 	
